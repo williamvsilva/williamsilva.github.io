@@ -106,7 +106,7 @@ export default function Home() {
     <div className="portfolio-shell">
       <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
         <a className="brand" href="#inicio" onClick={closeMenu} aria-label="William Vasconcelos — início">
-          <img src="/assets/william-logo-palette.png" alt="" />
+          <img src={`${import.meta.env.BASE_URL}assets/william-logo-palette.png`} alt="" />
           <span>WILLIAM<br /><b>VASCONCELOS</b></span>
         </a>
         <button className="menu-trigger" aria-label={menuOpen ? "Fechar menu" : "Abrir menu"} onClick={() => setMenuOpen(!menuOpen)}>
