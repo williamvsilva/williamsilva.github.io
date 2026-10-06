@@ -137,7 +137,7 @@ export default function Home() {
           </div>
           <div className="hero-meta">
             <span>01 — PORTFÓLIO PROFISSIONAL</span>
-            <span>GUARULHOS / SP · BRASIL</span>
+            <span>SÃO PAULO / SP · BRASIL</span>
           </div>
         </section>
 
